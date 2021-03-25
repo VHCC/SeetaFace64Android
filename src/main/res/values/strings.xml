@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">人脸识别Demo</string>
+    <string name="id_label">个人信息</string>
+    <string name="id_num_label">身份证号</string>
+    <string name="id_birth_label">出生日期</string>
+    <string name="id_name_label">姓名</string>
+    <string name="id_address_label">地址</string>
+    <string name="id_gender_label">性别</string>
+    <string name="id_folk_label">民族</string>
+    <string name="please_restart_device_or_app">请尝试重启应用或重启设备(Err: %d)</string>
+    <string name="please_take_idcard">请刷通行证或身份证</string>
+    <string name="threshold_manul_less_than_success">请确保人工阈值小于通过阈值</string>
+    <string name="error_init_card_reader">身份证扫描器初始化失败</string>
+    <string name="exit">退出</string>
+    <string name="retry">重试</string>
+    <string name="title_activity_settings">设置</string>
+
+    <string name="status_no_face_detected">未检测到人脸</string>
+    <string name="status_recognizing">识别中…</string>
+    <string name="status_recognized">已识别</string>
+    <!-- Strings related to Settings -->
+
+    <string name="pref_header_general">通用设置</string>
+
+    <string name="pref_title_logo">Logo</string>
+    <string name="pref_title_background">背景</string>
+    <string name="pref_title_corp_name">公司（单位）名称</string>
+    <string name="pref_title_corp_name_en">公司（单位）英文名称</string>
+    <string name="pref_default_corp_name">中科视拓</string>
+    <string name="pref_default_corp_name_en">Fire Vision</string>
+    <string name="pref_title_online_mode">联机模式</string>
+
+    <string name="pref_key_logo">logo_image</string>
+    <string name="pref_key_background">background_image</string>
+    <string name="pref_key_corp_name">corp_name</string>
+    <string name="pref_key_corp_name_en">corp_name_en</string>
+    <string name="pref_key_online_mode">online_mode</string>
+    <string name="pref_key_service_url_1v1">service_url_1v1</string>
+    <string name="pref_key_service_url_1vx">service_url_1vx</string>
+    <string name="pref_key_service_url_1vn">service_url_1vn</string>
+    <string name="pref_key_push_service_uri">push_service_uri</string>
+    <string name="pref_key_threshold_success">threshold_success</string>
+    <string name="pref_key_threshold_manual">threshold_manual</string>
+    <string name="pref_key_result_showing_time">result_showing_time</string>
+    <string name="pref_key_relay_signal_reverse">relay_signal_reverse</string>
+    <string name="pref_key_1vn_max_consecutive_failure">1vn_max_consecutive_failure</string>
+
+    <string name="pref_key_1vn_enabled">1vn_enabled</string>
+    <string name="pref_title_1vn_enalbled">启用 1:N 服务</string>
+
+    <string name="pref_key_1v1_enabled">1v1_enabled</string>
+    <string name="pref_title_1v1_enalbled">启用 1:1 服务</string>
+
+    <string name="pref_key_1vx_enabled">1vx_enabled</string>
+    <string name="pref_title_1vx_enalbled">启用 1:X 服务</string>
+
+
+    <string name="pref_key_relay_enabled">relay_enable</string>
+    <string name="pref_title_relay_enabled">继电器动作</string>
+    <string name="pref_summary_relay_enabled">验证通过后，依次执行继电器闭合、断开动作</string>
+
+    <string name="pref_title_relay_signal_reverse">继电器驱动信号对调</string>
+    <string name="pref_summary_relay_signal_reverse">硬件正常驱动信号为：1对应闭合，0对应断开；对调后则为：0对应闭合，1对应断开</string>
+
+    <string name="pref_header_about">关于</string>
+
+    <string name="pref_header_online">联机模式</string>
+    <string name="pref_header_offline">单机模式</string>
+
+    <string name="pref_key_frames_to_track">frames_to_track</string>
+    <string name="pref_key_min_face_size">min_face_size</string>
+
+    <string name="pref_title_min_face_size">最小人脸</string>
+    <string name="pref_default_min_face_size">40</string>
+
+    <string name="pref_title_frames_to_track">人脸跟踪帧数</string>
+    <string name="pref_default_frames_to_track">1</string>
+
+    <string name="pref_summary_online_mode">单机模式仅支持身份证人证比对功能；联机模式使用服务器进行识别验证，该模式需要正确配置服务器接口</string>
+    <string name="pref_title_server_1v1">服务器接口 1:1</string>
+    <string name="pref_default_server_1v1">http://192.168.0.162/seeta_eye_cloud/face_detect/guest</string>
+
+    <string name="pref_title_server_1vx">服务器接口 1:X</string>
+    <string name="pref_default_server_1vx">http://192.168.0.162/seeta_eye_cloud/face_detect/member</string>
+
+    <string name="pref_title_server_1vn">服务器接口 1:N</string>
+    <string name="pref_default_server_1vn">http://192.168.0.162/seeta_eye_cloud/face_detect/accuracy</string>
+
+    <string name="pref_title_1vn_max_consecutive_failure">1:N 最大连续失败次数（超过则语音提示）</string>
+    <string name="pref_default_1vn_max_consecutive_failure">6</string>
+
+    <string name="pref_title_server_push">推送接口</string>
+    <string name="pref_default_server_push">tcp://192.168.0.91:1883</string>
+
+    <string name="pref_title_threshold_success">验证通过阈值</string>
+    <string name="pref_default_threshold_success">0.60</string>
+    <string name="pref_title_threshold_manual">人工验证阈值</string>
+    <string name="pref_default_threshold_manual">0.40</string>
+    <string name="pref_title_result_showing_time">验证结果显示时间（毫秒）</string>
+    <string name="pref_default_result_showing_time">1000</string>
+    <string name="face_detecting">人脸检测中</string>
+    <string name="faculty_info">员工信息</string>
+    <string name="name_title">姓名：</string>
+    <string name="verify_status_pass">验证通过</string>
+
+</resources>

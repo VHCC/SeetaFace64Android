@@ -1,0 +1,70 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/pref_key_1v1_enabled"
+        android:title="@string/pref_title_1v1_enalbled"/>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/pref_key_1vx_enabled"
+        android:title="@string/pref_title_1vx_enalbled"/>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/pref_key_1vn_enabled"
+        android:title="@string/pref_title_1vn_enalbled"/>
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_server_1v1"
+        android:inputType="textCapWords"
+        android:key="@string/pref_key_service_url_1v1"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:enabled="true"
+        android:title="@string/pref_title_server_1v1"/>
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_server_1vx"
+        android:inputType="textCapWords"
+        android:key="@string/pref_key_service_url_1vx"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:enabled="true"
+        android:title="@string/pref_title_server_1vx"/>
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_server_1vn"
+        android:inputType="textCapWords"
+        android:key="@string/pref_key_service_url_1vn"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_server_1vn"/>
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_1vn_max_consecutive_failure"
+        android:inputType="textCapWords"
+        android:key="@string/pref_key_1vn_max_consecutive_failure"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_1vn_max_consecutive_failure"/>
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_server_push"
+        android:inputType="textCapWords"
+        android:key="@string/pref_key_push_service_uri"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_server_push"/>
+
+</PreferenceScreen>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="info_text_label">#7cb342</color>
+    <color name="info_text_content">#212121</color>
+    <color name="title_bg_color">#4d000000</color>
+    <color name="title_bg_color_opaque">#204462</color>
+    <color name="white">#ffffff</color>
+    <color name="info_card_bg">#a8ffffff</color>
+    <color name="tip_color">#ffffffff</color>
+    <color name="black">#000000</color>
+
+    <color name="title_bg">#4e96ff</color>
+    <color name="button_normal">#4e96ff</color>
+    <color name="button_click">#0566ad</color>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline_v1"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3"/>
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline_v2"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5"/>
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline_v3"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.85"/>
+
+    <SeekBar
+        android:id="@+id/seek_threshold_pass"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:max="100"
+        android:padding="10dp"
+        android:progress="3"
+        app:layout_constraintLeft_toRightOf="@+id/guideline_v1"
+        app:layout_constraintRight_toRightOf="@+id/guideline_v3" />
+
+    <TextView
+        android:id="@+id/tx_1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="通过阈值："
+        style="@style/AppTheme.SettingLabel"
+        app:layout_constraintBottom_toBottomOf="@+id/seek_threshold_pass"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guideline_v1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tx_pass"
+        style="@style/AppTheme.SettingValue"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/seek_threshold_pass"
+        app:layout_constraintLeft_toRightOf="@id/guideline_v3"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seek_threshold_manul"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:max="100"
+        android:padding="10dp"
+        android:progress="3"
+        app:layout_constraintLeft_toRightOf="@+id/guideline_v1"
+        app:layout_constraintRight_toRightOf="@+id/guideline_v3"
+        app:layout_constraintTop_toBottomOf="@id/seek_threshold_pass" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="人工阈值："
+        style="@style/AppTheme.SettingLabel"
+        app:layout_constraintBottom_toBottomOf="@+id/seek_threshold_manul"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guideline_v1"
+        app:layout_constraintTop_toTopOf="@id/seek_threshold_manul" />
+
+    <TextView
+        android:id="@+id/tx_manul"
+        style="@style/AppTheme.SettingValue"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="@+id/seek_threshold_manul"
+        app:layout_constraintLeft_toRightOf="@id/guideline_v3"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/seek_threshold_manul" />
+
+</android.support.constraint.ConstraintLayout>

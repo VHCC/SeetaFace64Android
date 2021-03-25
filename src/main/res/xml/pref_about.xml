@@ -1,0 +1,42 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_corp_name"
+        android:inputType="textCapWords"
+        android:key="@string/pref_key_corp_name"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_corp_name"/>
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_corp_name_en"
+        android:inputType="textCapWords"
+        android:key="@string/pref_key_corp_name_en"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_corp_name_en"/>
+
+    <Preference android:title="@string/pref_title_logo"/>
+
+    <Preference android:title="@string/pref_title_background"/>
+
+
+    <Preference android:title="Version" android:key="app_version" android:summary="1.2.1"/>
+    <Preference android:title="Code" android:key="app_version_code" android:summary="2312"/>
+    <Preference android:title="Flavor" android:key="app_flavor" android:summary="main"/>
+    <Preference android:title="Build date" android:key="app_build_date" android:summary="2017/08/12 09:23"/>
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="number"
+        android:key="dev_id"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Device ID"
+        android:enabled="false"/>
+</PreferenceScreen>

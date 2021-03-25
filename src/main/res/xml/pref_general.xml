@@ -1,0 +1,49 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:enabled="false"
+        android:key="@string/pref_key_online_mode"
+        android:title="@string/pref_title_online_mode"
+        android:summary="@string/pref_summary_online_mode"/>
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_frames_to_track"
+        android:inputType="numberDecimal"
+        android:key="@string/pref_key_frames_to_track"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_frames_to_track"/>
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_min_face_size"
+        android:inputType="numberDecimal"
+        android:key="@string/pref_key_min_face_size"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_min_face_size"/>
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_result_showing_time"
+        android:inputType="numberDecimal"
+        android:key="@string/pref_key_result_showing_time"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_result_showing_time"/>
+<!--
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="@string/pref_key_relay_enabled"
+        android:title="@string/pref_title_relay_enabled"
+        android:summary="@string/pref_summary_relay_enabled"/>
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="@string/pref_key_relay_signal_reverse"
+        android:title="@string/pref_title_relay_signal_reverse"
+        android:summary="@string/pref_summary_relay_signal_reverse"/>-->
+</PreferenceScreen>

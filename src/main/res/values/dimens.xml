@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="id_info_line_spacing">6dp</dimen>
+    <dimen name="id_info_label_spacing">1dp</dimen>
+    <dimen name="info_width">650dp</dimen>
+    <dimen name="info_height">230dp</dimen>
+    <dimen name="ic_info_width">650dp</dimen>
+    <dimen name="ic_info_height">220dp</dimen>
+    <dimen name="font_label">18dp</dimen>
+    <dimen name="font_val">24dp</dimen>
+
+</resources>

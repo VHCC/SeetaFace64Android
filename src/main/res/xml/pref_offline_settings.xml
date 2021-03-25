@@ -1,0 +1,27 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <com.seetatech.seetaverify.view.SeekPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_threshold_success"
+        android:inputType="textCapWords"
+        android:key="@string/pref_key_threshold_success"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:enabled="false"
+        android:dialogLayout="@layout/seek_preference"
+        android:title="@string/pref_title_threshold_success"/>
+
+    <com.seetatech.seetaverify.view.SeekPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_threshold_manual"
+        android:inputType="textCapWords"
+        android:key="@string/pref_key_threshold_manual"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:enabled="false"
+        android:dialogLayout="@layout/seek_preference"
+        android:title="@string/pref_title_threshold_manual"/>
+
+</PreferenceScreen>
